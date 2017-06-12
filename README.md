@@ -1,4 +1,4 @@
-paper-spinning-icon
+paper-spinning-icon [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-spinning-icon)
 =========
 
 A Material Design spinning icon, e.g. to indicate ongoing updating. This element is built for [Polymer](https://www.polymer-project.org).
