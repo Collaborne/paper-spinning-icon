@@ -1,0 +1,58 @@
+<!doctype html>
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../iron-icons/iron-icons.html">
+
+<dom-module id="paper-spinning-icon">
+
+	<template>
+
+		<style>
+			.icon {
+				@apply --paper-spinning-icon-icon;
+			}
+
+			@keyframes spinning {
+				from {
+					transform: rotate(0deg);
+				}
+				to {
+					transform: rotate(360deg);
+				}
+			}
+			:host([active]) .icon {
+				animation: spinning 1s linear infinite;
+			}
+		</style>
+
+		<iron-icon icon="[[icon]]" class="icon"></iron-icon>
+
+	</template>
+
+	<script>
+
+		Polymer({
+			is: 'paper-spinning-icon',
+			properties: {
+				/**
+				* True if the icon is spinning
+				*/
+				active: {
+					type: Boolean,
+					value: false,
+					reflectToAttribute: true,
+				},
+
+				/**
+				* Name of the icon that is spinning
+				*/
+				icon: {
+					type: String,
+					value: 'icons:refresh',
+				},
+			},
+		});
+
+	</script>
+
+</dom-module>
