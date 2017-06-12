@@ -11,7 +11,9 @@ To use the element:
 ```
 <custom-element-demo>
   <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="paper-spinning-icon.html">
+    <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
 ```
