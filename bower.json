@@ -5,7 +5,7 @@
     "Ronny Roeller <ronny@collaborne.com>"
   ],
   "description": "Polymer element that shows a spinning icon, e.g. to indicate ongoing updating",
-  "main": "spinning-refresh-icon.html",
+  "main": "paper-spinning-icon.html",
   "license": "Apache 2",
   "ignore": [
     "**/.*",
