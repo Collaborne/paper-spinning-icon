@@ -1,23 +1,18 @@
-_[Demo and API Docs](http://collaborne.github.io/paper-stepper)_
-
-
-paper-stepper [![Bower version](https://badge.fury.io/bo/paper-stepper.svg)](http://badge.fury.io/bo/paper-stepper) [![Travis state](https://travis-ci.org/Collaborne/paper-stepper.svg?branch=master)](https://travis-ci.org/Collaborne/paper-stepper)
+paper-spinning-icon
 =========
 
-A Material Design [stepper](https://www.google.com/design/spec/components/steppers.html). This element is built for [Polymer 1.x](https://www.polymer-project.org).
-
-![Screenshot](/doc/screenshot.png "Screenshot")
+A Material Design spinning icon, e.g. to indicate ongoing updating. This element is built for [Polymer](https://www.polymer-project.org).
 
 To use the element:
 
-`bower install paper-stepper`
+`bower install paper-spinning-icon`
 
 
 ## License
 
     This software is licensed under the Apache 2 license, quoted below.
 
-    Copyright 2011-2015 Collaborne B.V. <http://github.com/Collaborne/>
+    Copyright 2011-2017 Collaborne B.V. <http://github.com/Collaborne/>
 
     Licensed under the Apache License, Version 2.0 (the "License"); you may not
     use this file except in compliance with the License. You may obtain a copy of
