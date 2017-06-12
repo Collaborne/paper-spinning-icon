@@ -7,6 +7,19 @@ To use the element:
 
 `bower install paper-spinning-icon`
 
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="paper-spinning-icon.html">
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<paper-spinning-icon active></paper-spinning-icon>
+```
+
 
 ## License
 
