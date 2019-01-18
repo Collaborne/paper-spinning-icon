@@ -6,7 +6,7 @@
   ],
   "homepage": "https://github.com/collaborne/paper-spinning-icon",
   "name": "@collaborne/paper-spinning-icon",
-  "version": "2.0.6",
+  "version": "3.0.0",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
