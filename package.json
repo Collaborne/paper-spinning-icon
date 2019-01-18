@@ -1,0 +1,30 @@
+{
+  "description": "Polymer element that shows a spinning icon, e.g. to indicate ongoing updating",
+  "keywords": [
+    "web-components",
+    "polymer"
+  ],
+  "homepage": "https://github.com/collaborne/paper-spinning-icon",
+  "name": "@collaborne/paper-spinning-icon",
+  "version": "2.0.6",
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0"
+  },
+  "main": "paper-spinning-icon.js",
+  "author": "collaborne",
+  "license": "Apache 2",
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-component-page": "^4.0.0",
+    "@polymer/iron-demo-helpers": "^3.0.0",
+    "@polymer/paper-checkbox": "^3.1.0",
+    "@webcomponents/webcomponentsjs": "^2.2.4"
+  }
+}

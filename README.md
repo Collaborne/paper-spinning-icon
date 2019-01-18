@@ -7,19 +7,8 @@ A Material Design spinning icon to indicate ongoing updating. This element is bu
 
 To use the element:
 
-`bower install paper-spinning-icon`
+`npm install @collaborne/paper-spinning-icon`
 
-<!--
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="paper-spinning-icon.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
 ```html
 <paper-spinning-icon active></paper-spinning-icon>
 ```
