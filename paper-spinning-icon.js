@@ -1,4 +1,4 @@
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 import '@polymer/iron-icon';
 import '@polymer/iron-icons';
 
@@ -38,13 +38,14 @@ class PaperSpinningIcon extends PolymerElement {
 
 	static get properties() {
 		return {
+
 			/**
-			* True if the icon is spinning
-			*/
+			 * True if the icon is spinning
+			 */
 			active: {
+				reflectToAttribute: true,
 				type: Boolean,
 				value: false,
-				reflectToAttribute: true,
 			},
 
 			/**
@@ -54,7 +55,7 @@ class PaperSpinningIcon extends PolymerElement {
 				type: String,
 				value: 'icons:refresh',
 			},
-		}
+		};
 	}
 }
 window.customElements.define(PaperSpinningIcon.is, PaperSpinningIcon);

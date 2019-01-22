@@ -7,15 +7,20 @@
   "homepage": "https://github.com/collaborne/paper-spinning-icon",
   "name": "@collaborne/paper-spinning-icon",
   "version": "3.0.0",
-  "resolutions": {
-    "inherits": "2.0.3",
-    "samsam": "1.1.3",
-    "supports-color": "3.1.2",
-    "type-detect": "1.0.0"
-  },
   "main": "paper-spinning-icon.js",
   "author": "collaborne",
-  "license": "Apache 2",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/paper-spinning-icon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/paper-spinning-icon.git"
+  },
+  "scripts": {
+    "lint": "eslint . && polymer lint",
+    "test": "npm run lint && echo 'No tests yet'"
+  },
   "dependencies": {
     "@polymer/iron-icon": "^3.0.1",
     "@polymer/iron-icons": "^3.0.1",
@@ -25,6 +30,8 @@
     "@polymer/iron-component-page": "^4.0.0",
     "@polymer/iron-demo-helpers": "^3.0.0",
     "@polymer/paper-checkbox": "^3.1.0",
-    "@webcomponents/webcomponentsjs": "^2.2.4"
+    "eslint": "^5.12.1",
+    "eslint-config-collaborne": "^1.5.0",
+    "polymer-cli": "^1.9.5"
   }
 }
