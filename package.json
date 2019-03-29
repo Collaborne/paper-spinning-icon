@@ -6,7 +6,7 @@
   ],
   "homepage": "https://github.com/collaborne/paper-spinning-icon",
   "name": "@collaborne/paper-spinning-icon",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "main": "dist/paper-spinning-icon.js",
   "types": "dist/paper-spinning-icon.d.ts",
   "author": "collaborne",
