@@ -13,6 +13,11 @@ To use the element:
 <paper-spinning-icon active></paper-spinning-icon>
 ```
 
+To develop:
+```sh
+npm run start-dev
+```
+
 
 ## License
 

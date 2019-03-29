@@ -7,7 +7,8 @@
   "homepage": "https://github.com/collaborne/paper-spinning-icon",
   "name": "@collaborne/paper-spinning-icon",
   "version": "3.0.1",
-  "main": "paper-spinning-icon.js",
+  "main": "dist/paper-spinning-icon.js",
+  "types": "dist/paper-spinning-icon.d.ts",
   "author": "collaborne",
   "license": "Apache-2.0",
   "bugs": {
@@ -18,20 +19,26 @@
     "url": "git+https://github.com/Collaborne/paper-spinning-icon.git"
   },
   "scripts": {
-    "lint": "eslint . && polymer lint",
-    "test": "npm run lint && echo 'No tests yet'"
+    "build": "node_modules/typescript/bin/tsc",
+    "lint": "tslint -c tslint.json \"src/**/*.ts\"",
+    "test": "npm run lint && echo 'No tests yet'",
+    "start-dev": "node_modules/typescript/bin/tsc --watch & polymer serve"
   },
   "dependencies": {
     "@polymer/iron-icon": "^3.0.1",
     "@polymer/iron-icons": "^3.0.1",
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.1.0",
+    "lit-element": "^2.1.0"
   },
   "devDependencies": {
     "@polymer/iron-component-page": "^4.0.0",
     "@polymer/iron-demo-helpers": "^3.0.0",
     "@polymer/paper-checkbox": "^3.1.0",
-    "eslint": "^5.12.1",
-    "eslint-config-collaborne": "^1.5.0",
-    "polymer-cli": "^1.9.5"
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "polymer-cli": "^1.9.5",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-config-collaborne": "^0.0.4",
+    "typescript": "^3.3.4000"
   }
 }
