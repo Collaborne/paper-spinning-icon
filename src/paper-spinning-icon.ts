@@ -12,13 +12,13 @@ export class PaperSpinningIcon extends LitElement {
 	 * True if the icon is spinning
 	 */
 	@property({type: Boolean, reflect: true})
-	public active = false;
+	public active: boolean = false;
 
 	/**
 	 * Name of the icon that is spinning
 	 */
 	@property({type: String})
-	public icon = 'icons:refresh';
+	public icon: string = 'icons:refresh';
 
 	static get styles() {
 		return css`
