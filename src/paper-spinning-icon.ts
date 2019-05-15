@@ -41,6 +41,7 @@ export class PaperSpinningIcon extends LitElement {
 
 	protected render() {
 		return html`
-			<iron-icon icon="${this.icon}" class="icon"></iron-icon>`;
+			<iron-icon icon="${this.icon}" class="icon"></iron-icon>
+		`;
 	}
 }
